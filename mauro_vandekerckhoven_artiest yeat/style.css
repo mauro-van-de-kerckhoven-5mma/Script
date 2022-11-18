@@ -1,0 +1,115 @@
+body {
+    background-color: 		#212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 60%;
+}
+
+header h1 {
+    padding: 40px;
+    letter-spacing: 0,5ch;
+  }
+
+header {
+    background-image: url("images/logo.webp");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#home{
+    font-size: xx-large; text-align: center;
+}
+
+nav {
+    background-color: #228B22;
+}
+
+nav li {
+display: inline-block;
+
+}
+
+nav a{
+    display: block; /* anchor elementen kunnen zo grootte krijgen */
+    color: Linen;
+    padding: 24px;}
+nav a:hover {
+    background-color: #46a846;color: #FFD700;
+}
+
+button {
+    background-color: #228B22;
+}
+
+button {
+    color: #FFD700;
+}
+
+h1{
+    color: #FFD700;
+
+    padding: 30px 40px;
+}
+
+h2 {
+    color: #FFD700;
+    text-align: center;
+}
+
+h3 {
+    color: #FFD700;
+}
+
+ul {
+    color: #FFFF;
+}
+
+ol {
+    color: #FFFF;
+    
+}
+
+legend {
+    color: #FFFF;
+}
+
+fieldset {
+    color: #FFFF;
+}
+
+section{
+    padding: 30px 40px;
+}
+
+#biografie{
+    padding:30px 180px ;
+}
+
+p {
+        color: #FFFF;
+        text-align: center;
+}
+
+a {
+    color: #FFFF;
+}
+
+a:hover {
+    color: #228B22;
+}
+
+#shiny img {
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+}
+
+footer{
+    padding: 30px 40px;
+    color: #FFFF;
+    text-align: center;
+}
+

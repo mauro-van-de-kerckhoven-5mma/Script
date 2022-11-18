@@ -1,0 +1,56 @@
+body {
+    background-color: #4281A4;
+}
+
+H1 {
+    color: #053C5E;
+}
+
+h2 {
+    color: #053C5E;
+}
+
+h3 {
+    color: #053C5E;
+}
+
+ul {
+    color: #FFFFFF;
+}
+
+ol {
+    color: #FFFFFF;
+}
+
+legend {
+    color: #053C5E;
+}
+
+fieldset {
+    color: #FFFFFF;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #053C5E;
+}
+
+button {
+    background-color: #053C5E;
+}
+
+button {
+    color: #FFFFFF;
+}
+
+footer {
+    color: #053c5e;
+}
+

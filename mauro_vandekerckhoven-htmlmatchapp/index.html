@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Match App</title>
+    <meta name="description" content="HTML match app">
+</head>
+<body>
+   <header>
+     <h1>HTML Match App!</h1>
+   </header> 
+   <main>
+    <section id="intro">
+        <h2>Introductie</h2>
+        <img src="images/download.jfif" alt="foto van auto's" width="200px">
+        <p>klik hier voor <a href="https://nl.pinterest.com/pin/422281203881264/"> meer foto's van auto's</a></p>
+    </section>
+    <section id="lijstjes">
+      <h2>Lijstjes</h2>
+      <h3>Wat zijn de beste auto's:</h3>
+      <ul>
+        <li>bmw</li>
+        <li>porsche</li>
+        <li>ferrari</li>
+      </ul>
+      <h3>Wat zijn de slechtste auto's:</h3>
+      <ol>
+        <li>peugot</li>
+        <li>citroën</li>
+        <li>fiat 500</li>
+      </ol>
+    </section>
+    <section id="formulier">
+      <form action="">
+        <fieldset>
+           <legend>Wat is je lievelings auto:</legend>
+            <input type="radio" name="lievelings auto" value="bmw">bmw e30
+            <input type="radio" name="lievelings auto" value="Ferrari">Ferrari F40
+            <input type="radio" name="lievelings auto" value="Toyota supra">Toyota supra
+        </fieldset><br>
+        <fieldset>
+          <legend>Wat is er aanwezig in de auto:</legend>
+          <input type="checkbox" name="auto" value="stuur">een stuur
+          <input type="checkbox" name="auto" value="stoelen">stoelen
+          <input type="checkbox" name="auto" value="gordels">gordels
+          <input type="checkbox" name="auto" value="motor">de motor
+        </fieldset><br>
+        <fieldset>
+          <legend>Upload hier een foto van je lievelings auto:</legend>
+        
+        </fieldset><br>
+        <fieldset>
+          <legend>Commentaar</legend>
+          <textarea name="commentaar" id="" cols="25" rows="10"></textarea>
+        </fieldset><br>
+        <fieldset>
+          <legend>leeftijd</legend>
+          <input type="number" name="" id="" min="1" max="100">
+        </fieldset><br>
+        <fieldset>
+          <legend>hoe heeft u van ons gehoord</legend>
+          <select name="enquete" id="">
+            <option value="vrienden"> Via vrienden</option>
+            <option value="ads"> Via advertentie</option>
+            <option value="andere"> andere </option>
+          </select>
+        </fieldset><br>
+        
+          <button type="submit">Indienen</button>
+          <button type="reset">Reset</button>
+        
+      </form>
+    </section>
+   </main>
+</body>
+</html>
