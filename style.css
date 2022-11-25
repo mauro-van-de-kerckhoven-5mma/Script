@@ -25,6 +25,14 @@ p{
     text-align: center;
     display: flex;
 }
+
+col :left{
+    text-align: center;
+}
+
+col :right{
+    text-align: center;
+}
 a{
     color: black;
     font-size: 16px;
