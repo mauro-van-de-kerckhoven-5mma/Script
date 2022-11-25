@@ -24,6 +24,7 @@ p{
     color: rgb(0, 0, 0);
     text-align: center;
     display: flex;
+    content: center;
 }
 
 a{
