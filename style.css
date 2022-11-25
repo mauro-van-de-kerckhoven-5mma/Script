@@ -55,3 +55,7 @@ footer{
     margin: auto;
     text-align: center;
 }
+
+footer a:hover {
+    background-color: yellow;
+}
