@@ -19,19 +19,19 @@ p{
 }
 #flexbox{
     padding:10px;
-    margin: 15px;
+    margin: 40px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-align: center;
     display: flex;
 }
 a{
-    color: brown;
+    color: black;
     font-size: 16px;
 }
 a:hover{
-    background-color: orange;
-    border-color: orange;
+    background-color: yellow;
+    border-color: yellow;
     border-width: 2px;
     border-style: solid;
 }
