@@ -43,6 +43,15 @@ i{
     padding-left: 20px;
 }
 
+.videoframe {
+    overflow: hidden;
+    max-height: 50vh;
+  }
+  
+  video {
+    width: 100%;
+  }
+
 
 /* vormgeving classes */
 
