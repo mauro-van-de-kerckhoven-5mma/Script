@@ -28,7 +28,6 @@ header img{
 }
 header nav li{
     display: inline-block;
-    ;
     margin: 10px;
     
 }
@@ -72,6 +71,7 @@ font-size: x-large;
 h2{
     color: rgb(241, 36, 36) ;
     padding: 5%;
+    
 }
 
 
