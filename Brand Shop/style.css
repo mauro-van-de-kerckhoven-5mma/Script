@@ -28,8 +28,7 @@ header img{
 }
 header nav li{
     display: inline-block;
-    margin: 10px;
-    
+    margin: 10px;  
 }
 
 header nav a:hover{
