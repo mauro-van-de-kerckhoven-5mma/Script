@@ -52,7 +52,7 @@ i{
     position: absolute;
     z-index: 1;
     top: 70%;
-    left: 46%;
+    left: 44%;
   }
   
   video {
@@ -60,12 +60,13 @@ i{
   }
 
 button {
-width: 7rem;
-height: 4rem;
+width: 12rem;
+height: 5rem;
 background-color: rgb(241, 36, 36);
 color: white;
 border-color: black;
-font-size: large;
+border-width: 3px;
+font-size: x-large;
 }
 
 h2{
