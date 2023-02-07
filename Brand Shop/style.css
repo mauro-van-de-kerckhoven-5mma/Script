@@ -48,10 +48,10 @@ i{
     max-height: 100%;
   }
 
-  .videoframe h2 {
+  .videoframe .shopnow {
     position: absolute;
-    top: 50%;
-    left: 45%;
+    top: 70%;
+    left: 48%;
   }
   
   video {
