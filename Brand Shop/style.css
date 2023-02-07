@@ -24,7 +24,7 @@ header{
     padding: 20px;
 }
 header img{
-    width: 90px;
+    width: 150px;
 }
 header nav li{
     display: inline-block;
@@ -59,7 +59,7 @@ i{
   }
 
   img{
-    width: 100%;
+    width: 50%;
     padding: 3%;
   }
   p{
