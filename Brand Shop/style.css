@@ -49,7 +49,7 @@ i{
 
   .videoframe .shopnow {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 70%;
     left: 44%;
   }
@@ -71,7 +71,6 @@ font-size: x-large;
 h2{
     color: rgb(241, 36, 36) ;
     padding: 5%;
-    
 }
 
 
