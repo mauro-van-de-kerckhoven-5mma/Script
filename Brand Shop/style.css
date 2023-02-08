@@ -32,7 +32,8 @@ header nav li{
 }
 
 header nav a:hover{
-    text-decoration-line: underline;
+    text-decoration-line: none;
+    background-color: black;
 }
 
 i{
