@@ -17,6 +17,13 @@ a{
     color: white;
 }
 
+p{
+    background-color: white;
+    text-align: center;
+    color: black; 
+    font-size: medium;
+}
+
 /* hoofding */
 
 header{
