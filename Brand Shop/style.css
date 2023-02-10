@@ -5,45 +5,49 @@
     box-sizing: border-box;
     padding: 0;
 }
-body{
-    background-color:white;
-    font-family: 'Raleway', sans-serif;
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     font-size: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-p{
+p {
     background-color: white;
     text-align: center;
-    color: black; 
+    color: black;
     font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* hoofding */
 
-header{
-    background-color:rgb(241, 36, 36);
+header {
+    background-color: rgb(241, 36, 36);
     padding: 20px;
 }
-header img{
+
+header img {
     width: 120px;
 }
-header nav li{
+
+header nav li {
     display: inline-block;
-    margin: 10px;  
+    margin: 10px;
 }
 
-header nav a:hover{
+header nav a:hover {
     text-decoration-line: none;
     background-color: black;
 }
 
-i{
+i {
     color: white;
     font-size: 20px;
     padding-left: 20px;
@@ -52,39 +56,41 @@ i{
 .videoframe {
     overflow: hidden;
     max-height: 100%;
-  }
+}
 
-  .videoframe .shopnow {
+.videoframe .shopnow {
     position: absolute;
     z-index: 2;
     top: 70%;
     left: 44%;
-  }
-  
-  video {
-    width: 100%;
-  }
-
-button {
-width: 12rem;
-height: 5rem;
-background-color: rgb(241, 36, 36);
-color: white;
-border-color: black;
-font-size: x-large;
 }
 
-h2{
-    color: rgb(241, 36, 36) ;
+video {
+    width: 100%;
+}
+
+button {
+    width: 12rem;
+    height: 5rem;
+    background-color: rgb(241, 36, 36);
+    color: white;
+    border-color: black;
+    border-width: 3px;
+    font-size: x-large;
+}
+
+h2 {
+    color: rgb(241, 36, 36);
     padding: 5%;
     text-align: center;
-    border-bottom: solid; 
+    text-decoration: underline;
+    text-underline-offset: 2rem;
 }
 
 
 /* vormgeving classes */
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -92,8 +98,8 @@ h2{
 
 }
 
-.align-center{
-align-items: center;
+.align-center {
+    align-items: center;
 }
 
 .flex-item {
