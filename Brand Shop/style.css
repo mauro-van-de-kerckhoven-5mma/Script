@@ -87,6 +87,11 @@ h2 {
     text-underline-offset: 2rem;
 }
 
+#AboutUs p {
+    padding: 20%;
+    padding-top: 0%;
+}
+
 
 /* vormgeving classes */
 
