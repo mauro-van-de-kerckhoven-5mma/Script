@@ -90,6 +90,8 @@ h2 {
 #AboutUs p {
     padding: 20%;
     padding-top: 0%;
+    text-align: justify;
+    text-align-last: center;
 }
 
 
