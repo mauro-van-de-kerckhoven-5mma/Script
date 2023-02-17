@@ -132,12 +132,35 @@ footer {
     background-color: black;
     color: white;
   }
+
+  .footer-legal p{
+    text-align: left;
+  }
   
-  .footer-contact,
-  .footer-legal,
+  .footer-legal{
+    text-align: left;
+    margin-left: 20px;
+    flex: 1;
+  }
+
+  .footer-contact{
+    text-align: left;
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .footer-contact p{
+    text-align: left;
+  }
+
   .footer-newsletter {
     flex: 1;
-    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .footer-newsletter p{
+    text-align: left;
   }
   
   .footer-contact a,
