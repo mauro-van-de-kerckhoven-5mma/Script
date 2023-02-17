@@ -117,3 +117,51 @@ h2 {
 .flex-item img {
     width: 100%;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    font-size: 14px;
+    color: rgb(241, 36, 36);
+  }
+
+  footer p{
+    background-color: black;
+    color: white;
+  }
+  
+  .footer-contact,
+  .footer-legal,
+  .footer-newsletter {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-contact a,
+  .footer-legal a,
+  .footer-newsletter input[type="email"],
+  .footer-newsletter input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .footer-newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .footer-newsletter input[type="submit"] {
+    background-color: rgb(241, 36, 36);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
