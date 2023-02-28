@@ -152,6 +152,11 @@ footer {
     text-align: left;
   }
 
+  #socialemedia{
+    text-align: center;
+    padding-top: 30%;
+  }
+
   .footer-newsletter {
     flex: 1;
     margin-left: 20px;
@@ -185,4 +190,3 @@ footer {
     border-radius: 5px;
     cursor: pointer;
   }
-  
