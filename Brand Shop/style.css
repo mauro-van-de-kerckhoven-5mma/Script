@@ -43,8 +43,10 @@ header nav li {
 }
 
 header nav a:hover {
-    text-decoration-line: none;
-    background-color: black;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    color: black;
 }
 
 i {
