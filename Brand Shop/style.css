@@ -71,14 +71,12 @@ video {
     width: 100%;
 }
 
-button {
-    width: 10rem;
-    height: 5rem;
+.button {
     background-color: rgb(241, 36, 36);
     color: white;
-    border-color: black;
-    border-width: 3px;
     font-size: x-large;
+    border: none;
+    padding: 15px 32px;
 }
 
 h2 {
