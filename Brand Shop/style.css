@@ -118,6 +118,8 @@ h2 {
     width: 100%;
 }
 
+/* vormgeving footer */
+
 footer {
     display: flex;
     justify-content: space-between;
