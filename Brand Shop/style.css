@@ -130,7 +130,8 @@ footer {
 
 footer li {
   list-style: none;
-  color: white;
+  color:rgb(211, 211, 211);
+  margin-left: 1ch;
 }
 
 footer li:first-child {
@@ -140,9 +141,13 @@ footer li:first-child {
   text-transform: uppercase;
 } 
 
-.socialmedia :hover {
-  align-content: center;
-  margin-top: 5%;
+#socialmedia{
+  align-items: center;
+  margin-top: 35%;
+}
+
+#socialmedia :hover {
+  transform: scale(1.1);
 }
 
 footer input[type="email"],
