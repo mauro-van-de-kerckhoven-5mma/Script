@@ -121,7 +121,6 @@ h2 {
 /* vormgeving footer */
 
 footer {
-
   padding: 20px;
   background-color: black;
   font-size: 15px;
@@ -132,6 +131,11 @@ footer li {
   list-style: none;
   color:rgb(211, 211, 211);
   margin-left: 1ch;
+}
+
+footer ul :hover {
+color: white; 
+cursor: pointer;
 }
 
 footer li:first-child {
