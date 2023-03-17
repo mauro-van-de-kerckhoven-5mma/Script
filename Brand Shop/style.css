@@ -127,6 +127,15 @@ h2 {
 color: rgb(241, 36, 36) ;
 }
 
+#membership button {
+text-align: center;
+background-color: rgb(241, 36, 36);
+color: white;
+border: none;
+padding: 2%;
+border-radius: 6%;
+}
+
 /* vormgeving classes */
 
 .flex-container {
