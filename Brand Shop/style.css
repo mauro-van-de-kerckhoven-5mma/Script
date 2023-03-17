@@ -90,10 +90,42 @@ h2 {
 #AboutUs p {
   padding: 20%;
   padding-top: 0%;
+  padding-bottom: 0%;
   text-align: justify;
   text-align-last: center;
 }
 
+#membership {
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#membership .bgc-highlights {
+  background-color: black;
+}
+
+#membership .flex-item {
+  padding: 2rem;
+}
+
+#membership .bgd-joinus {
+  background-image: url("static/svg/supreme\ join\ us.webp");
+  background-size: cover;
+  background-position: right;
+}
+
+#membership p {
+  margin-bottom: 2.5em;
+  color: white;
+  background-color: black;
+  text-align: justify ;
+  text-align: left;
+}
+
+#membership h4 {
+color: rgb(241, 36, 36) ;
+}
 
 /* vormgeving classes */
 
