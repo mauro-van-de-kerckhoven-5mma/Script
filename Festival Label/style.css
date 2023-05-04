@@ -1,0 +1,97 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+    --bgc-01: hsl(213, 45%, 60%);
+    --bgc-02: hsl(0, 0%, 02%);
+    --txt-01: #ffff;
+    --txt-02: #D6BC78;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgc-01);
+    color: var(--txt-01);
+    font-family: "Segoe UI", Black;
+    line-height: 1;
+}
+
+/* header vormgeving */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    background-color: var(--bgc-02);
+    padding: 1rem ;
+    color: var(--txt-02)
+}
+
+header nav li{
+    display: inline-block;
+}
+
+header img{
+    width: 5rem;
+}
+
+header .logo {
+    justify-self: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none  ;
+    margin: 10px;
+}
+
+header, main {
+    padding: 1rem;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 0.2ch;
+    font-weight: 600;
+}
+
+header nav {
+    justify-self: end;
+    align-self: center;
+}
+
+/* main vormgeving */
+
+main {
+    background-image: url(static/achtergrond.png);
+    font-family: "Segoe UI", Black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-item img {
+    width: 100%; 
+    height: 80%; 
+    border-style: ridge;
+    border-color: #D6BC78;
+}
