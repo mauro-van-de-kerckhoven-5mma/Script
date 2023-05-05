@@ -74,6 +74,10 @@ header nav {
     align-self: center;
 }
 
+header nav li:hover {
+color: white;
+}
+
 /* main vormgeving */
 
 main {
@@ -94,4 +98,22 @@ main {
     height: 80%; 
     border-style: ridge;
     border-color: #D6BC78;
+}
+
+.grid-item {
+    position: relative;
+  }
+
+.grid-item h3 {
+  position: absolute;
+  bottom: 90px;
+  left: 10px;
+  letter-spacing: 0.5ch;
+}
+
+.grid-item p {
+    position: absolute;
+    bottom: 65px;
+    left: 10px;
+    letter-spacing: 0.5ch;
 }
