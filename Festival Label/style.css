@@ -57,6 +57,7 @@ p {
 a {
     text-decoration: none  ;
     margin: 10px;
+    color: #D6BC78;
 }
 
 header, main {
@@ -74,8 +75,8 @@ header nav {
     align-self: center;
 }
 
-header nav li:hover {
-color: white;
+nav a:hover{
+    color: white;
 }
 
 /* main vormgeving */
