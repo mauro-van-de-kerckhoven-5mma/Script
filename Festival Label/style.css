@@ -99,6 +99,12 @@ main {
     height: 90%; 
     border-style: ridge;
     border-color: #D6BC78;
+    cursor: pointer;
+}
+
+.grid-item img:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .grid-item {
@@ -106,15 +112,15 @@ main {
   }
 
 .grid-item h3 {
-  position: absolute;
+  position: relative;
   bottom: 65px;
   left: 15px;
   letter-spacing: 0.3ch;
 }
 
 .grid-item p {
-    position: absolute;
-    bottom: 45px;
+    position: relative;
+    bottom: 60px;
     left: 15px;
     letter-spacing: 0.3ch;
 }
@@ -132,6 +138,7 @@ footer {
   .left-column {
     flex-basis: 200px;
   }
+  
   
   /* Opmaak van de middelste kolom */
   .middle-column {
