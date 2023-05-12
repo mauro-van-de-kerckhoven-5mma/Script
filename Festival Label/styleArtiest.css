@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--bgc-01);
+    background-color: var(--bgc-02);
     color: var(--txt-01);
     font-family: "Segoe UI", Black;
     line-height: 1;
@@ -82,50 +82,64 @@ nav a:hover{
 /* main vormgeving */
 
 main {
-    background-image: url(static/achtergrond.png);
-    font-family: "Segoe UI", Black;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin-left: 85px;
-    margin-right: 50px;
-}
-
-.grid-item img {
-    width: 90%; 
-    height: 90%; 
-    border-style: ridge;
-    border-color: #D6BC78;
-    cursor: pointer;
-}
-
-.grid-item img:hover {
-  opacity: 0.8;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.grid-item {
-    position: relative;
- }
-
-.grid-item h3 {
-  position: relative;
-  bottom: 65px;
-  left: 15px;
-  letter-spacing: 0.3ch;
-}
-
-.grid-item p {
-    position: relative;
-    bottom: 60px;
-    left: 15px;
-    letter-spacing: 0.3ch;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E5554;
+    color: white;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .video-container {
+    margin-top: 30px;
+  }
 
 /* Algemene opmaak van de footer */
+
 footer {
     background-color: black;
     padding: 30px 20px;
