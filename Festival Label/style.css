@@ -26,7 +26,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  background-color: var(--bgc-02);
+  background-color: black;
   padding: 1rem;
   color: var(--txt-02);
 }
@@ -89,11 +89,6 @@ main {
   background-image: url(static/achtergrond.png);
 }
 
-#act {
-  background-color: #000;
-}
-
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -102,9 +97,43 @@ main {
   margin-right: 50px;
 }
 
+#act {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#act img{
+  width: 160%;
+}
+
 #act .grid-container {
   background-color: #0E5554;
   grid-template-columns: 1fr 0.4fr 2fr;
+  padding: 50px;
+}
+
+#act .social-icon i {
+  justify-content: center;
+  color: #D6BC78;
+}
+
+#act .social-icon:hover i {
+  transform: scale(1.3);
+}
+
+#act h1 {
+  margin-left: 20%;
+  color: #D6BC78;
+}
+
+#act p {
+  margin-left: 20%;
+  margin-top: 7%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  text-align: justify;
+  color: #D6BC78;
 }
 
 .grid-item img {
@@ -114,8 +143,6 @@ main {
   border-color: #D6BC78;
   cursor: pointer;
 }
-
-
 
 .grid-item img:hover {
   opacity: 0.8;
