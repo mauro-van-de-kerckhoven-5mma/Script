@@ -100,7 +100,6 @@ main {
 #act {
   background-color: black;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 #act img{
@@ -116,6 +115,7 @@ main {
 #act .social-icon i {
   justify-content: center;
   color: #D6BC78;
+  padding-left: 176px;
 }
 
 #act .social-icon:hover i {
@@ -134,6 +134,13 @@ main {
   padding-bottom: 0%;
   text-align: justify;
   color: #D6BC78;
+}
+
+#act .video {
+   background-color: black;
+   padding-left: 6.7%;
+   padding-top: 50px;
+   padding-bottom: 70px;
 }
 
 .grid-item img {
