@@ -121,7 +121,7 @@ main {
   transform: scale(1.3);
 }
 
-.social-icons {
+#act .social-icons {
   display: flex;
   flex-direction: column;
   align-items: center;
