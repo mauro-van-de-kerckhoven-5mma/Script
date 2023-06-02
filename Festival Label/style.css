@@ -35,6 +35,14 @@ header nav li {
   display: inline-block;
 }
 
+header input#burger {
+  display: none;
+}
+
+header label[for="burger"] {
+  display: none;
+}
+
 header img {
   width: 5rem;
 }
@@ -250,4 +258,13 @@ footer {
   margin-top: 20px;
   font-size: 14px;
   color: #555;
+}
+
+@media (width <=750px) {
+  header {
+    background-color: green;
+  }
+  header label [for="burger"] {
+    display: block;
+  }
 }
