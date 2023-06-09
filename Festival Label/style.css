@@ -320,8 +320,4 @@ footer {
     flex-direction: column;
     gap: 15px;
   }
-
-  footer .column {
-    padding-left: 135px;
-  }
 }
