@@ -43,13 +43,6 @@ header label[for="burger"] {
   display: none;
 }
 
-#header input#burger {
-  display: none;
-}
-
-header label[for="burger"] {
-  display: none;
-}
 
 header img {
   width: 5rem;
